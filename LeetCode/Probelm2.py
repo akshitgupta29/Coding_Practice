@@ -11,7 +11,6 @@ def isHappy(n: int) -> bool:
         while num:
             num, rem = num//10, num %10
             n += rem ** 2
-        if n in visited:
             break
         visited.add(n)
     return n == 1 

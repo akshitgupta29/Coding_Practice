@@ -8,5 +8,16 @@ Output: 2
 Explanation: 1 and 2 are counted cause 2 and 3 are in arr.
 '''
 
+from typing import List
+def countElements(arr: List[int]) -> int:
+    count = 0
+    set1 = set(arr)
+    for item in set1:
+        if (item + 1) in set1:
+            count +=1
+    return count
 
+if __name__ == "__main__":
+    arr = [1,1,2,2]
+    print (countElements(arr))
 

@@ -12,7 +12,7 @@ from typing import List
 def countElements(arr: List[int]) -> int:
     count = 0
     set1 = set(arr)
-    for item in set1:
+    for item in arr:
         if (item + 1) in set1:
             count +=1
     return count

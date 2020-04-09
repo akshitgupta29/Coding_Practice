@@ -1,4 +1,4 @@
-# Kaggle exercise for Python
+# Kaggle exercise for Python - Strings and Dictionaries
 # Link: https://www.kaggle.com/akshitgupta29/exercise-strings-and-dictionaries/edit
 # @author: Akshit Gupta
 

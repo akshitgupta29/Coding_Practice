@@ -1,3 +1,7 @@
+# Kaggle exercise for Python
+# Link: https://www.kaggle.com/akshitgupta29/exercise-strings-and-dictionaries/edit
+# @author: Akshit Gupta
+
 def word_search(doc_list, keyword):
     keyword = keyword.lower().strip ('.,')
     result = []
@@ -29,10 +33,6 @@ def multi_word_search(doc_list, keywords):
     for key in keywords:
         result[key] = word_search(doc_list, key)
     print (result)
-
-        
-
-
 
 if __name__ == "__main__":
     doc_list=["The Learn Python Challenge Casino.", "They bought a car and a casino", "Casinoville"]

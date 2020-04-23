@@ -1,1 +1,0 @@
-These scripts are part of the Google IT automation with Python course on coursera - Interacting with Operating System.

@@ -14,6 +14,10 @@ class Difference:
                     self.maximumDifference = diff
         return self.maximumDifference
 
+class Difference_n:
+    def __init__(self,a) -> None:
+        self.__elements = a
+    
 
 # End of Difference class
 _ = input()

@@ -13,6 +13,8 @@ class Solution:
 
     def insert(self, head, data):
         # Complete this method
+        if head is None:
+            pass
         pass
 
 

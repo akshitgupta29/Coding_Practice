@@ -1,5 +1,11 @@
 class Calculator:
-    pass
+    def power(self, n, p):
+        if n < 0 or p < 0:
+            raise Exception ('n and p should be non-negative')
+        else:
+            ans = pow(n,p)
+        return ans
+    
 
 myCalculator=Calculator()
 T=int(input())
